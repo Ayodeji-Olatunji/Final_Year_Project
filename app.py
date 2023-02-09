@@ -28,7 +28,8 @@ target = {0: 'apple',
 
 def main():
     st.title('Crop Prediction System')
-
+    st.write('This application uses the attributes below to get the suitable crop for the soil with those features.') 
+             
     Nitrogen = st.text_input('N', placeholder='Nitrogen value')
     Phosphorus = st.text_input('P', placeholder='Phosphorus value')
     Potassium = st.text_input('K', placeholder='Potassium value')
